@@ -16,6 +16,11 @@
 // const teo={
 //     name : "Nguyen Van Teo", age: 10
 // }
+//th3 : function khong return thi undefined
+// function showName(name){
+//     console.log(name)
+//     }
+//     console.log(showName("Phat"))
 
 // console.log(teo.address)
 
@@ -33,14 +38,36 @@
 // console.log(arrayNames[0])
 
 //mutable and immutable
+
 //5: toan tu
 // + , - , * , / , % , ++ , --
 // a +=1 === a = a+1
-var a = 5
-var b = 6
-var ketqua = a++ - --b + --a + b-- + ++a - b++ + b-- - b++
-// 5 - --b + --a + b-- + ++a - b++ + b-- - b++
-// 5 - 5 + --a + b-- + ++a - b++ + b-- - b++
-// 5 - 5 + 4 + b-- + ++a - b++ + b-- - b++
-// 5 - 5 + 4 + 5+ ++a - b++ + b-- - b++
-console.log(ketqua)
+// do uu tien cua toan tu : ++,--
+//*,/
+//+,-
+// var a = 5
+// var b = 6
+// var ketqua = a++ - --b + --a + b-- + ++a - b++ + b-- - b++
+// // a++ - --b + --a + b-- + ++a - b++ + b-- - b++ a = 6 , b=6
+// // a++ - --b + --a + b-- + ++a - b++ + b-- - b++ a = 6 , b=6
+// console.log(ketqua)
+
+//6 : function
+// pham vi truy cap ( access modifier)
+// function showName(name){
+// console.log(name)
+// return name
+// }
+// console.log(showName("Phat"))
+
+//7 : object method 
+const teo = {
+    name : "Nguyen Van Teo", 
+    age :10,
+    info : function(){
+        console.log("Name : " +this.name)
+        console.log("Age : " +this.age)
+    }
+}
+teo.info()
+    
