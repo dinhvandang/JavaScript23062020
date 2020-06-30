@@ -35,20 +35,37 @@
 //      console.log(NewArray)
 
 //14 : callback
-    function binhphuong(num){
-            return num * num
-    }
+    // function binhphuong(num){
+    //         return num * num
+    // }
 
-    function tinhtongArray(arr , fn){
-        var ketqua = 0
-            for (const value of arr) {
-                ketqua += fn(value)
-            }
-            return ketqua
-    }
+    // function tinhtongArray(arr , fn){
+    //     var ketqua = 0
+    //         for (const value of arr) {
+    //             ketqua += fn(value)
+    //         }
+    //         return ketqua
+    // }
 
-    const arrayNums = [1,2,3,4,5]
-    console.log(tinhtongArray(arrayNums , binhphuong))
+    // const arrayNums = [1,2,3,4,5]
+    // console.log(tinhtongArray(arrayNums , binhphuong))
 
+//15 : ham map
+    const arrayNums = [1,2,3,4,5,6,7,8,9,10]
+    // const newArrayNums = []
+    // for (const value of arrayNums) {
+    //     newArrayNums.push(value +1)
+    // }
 
+        // const newArrayNums = arrayNums.map(function(value , index){
+        //     console.log(value)
+        //     return value
+        // })
+        //  console.log(newArrayNums)
+
+         const newArrayNums = arrayNums.map(function(value , index){
+        
+            return value +1
+        })
+         console.log(newArrayNums)
    
