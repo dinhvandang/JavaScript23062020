@@ -31,5 +31,24 @@
 // arrayNames.shift()
 // console.log(arrayNames)
 // noi du lieu
-const NewArray = arrayNames.concat(arrayNames2)
-     console.log(NewArray)
+// const NewArray = arrayNames.concat(arrayNames2)
+//      console.log(NewArray)
+
+//14 : callback
+    function binhphuong(num){
+            return num * num
+    }
+
+    function tinhtongArray(arr , fn){
+        var ketqua = 0
+            for (const value of arr) {
+                ketqua += fn(value)
+            }
+            return ketqua
+    }
+
+    const arrayNums = [1,2,3,4,5]
+    console.log(tinhtongArray(arrayNums , binhphuong))
+
+
+   
