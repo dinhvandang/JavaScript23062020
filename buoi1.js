@@ -95,5 +95,27 @@
 //         console.log(key)
 //     }
 // Ex
-
+var apartment = {
+    bedroom: {
+      area: 20,
+      bed: {
+        type: 'twin-bed',
+        price: 100
+      }
+    }
+  };
+  
+  function getkey(object){
+    //   for (const key in object) {
+    // console.log(key)
+    // if (typeof object[key] == "object"){
+    //     getkey(object[key])
+    // }
+    //     }
+     console.log(Object.keys(object))
+      }
+  
+  
+  getkey(apartment)
+  
     
