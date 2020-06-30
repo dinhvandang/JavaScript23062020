@@ -61,13 +61,39 @@
 // console.log(showName("Phat"))
 
 //7 : object method 
-const teo = {
-    name : "Nguyen Van Teo", 
-    age :10,
-    info : function(){
-        console.log("Name : " +this.name)
-        console.log("Age : " +this.age)
-    }
-}
-teo.info()
+// const teo = {
+//     name : "Nguyen Van Teo", 
+//     age :10,
+//     info : function(){
+//         console.log("Name : " +this.name)
+//         console.log("Age : " +this.age)
+//     }
+// }
+// teo.info()
+//8: phep so sanh
+// 9 : vong lap for
+    // for(var i = 0 ; i < 10 ; i++){
+    //     console.log(i)
+    // }
+
+// 10 : for in
+//array :  var arrayNames = ["Teo" , "Ti" , "Tun" , " Tuan" , "Hoa"]
+//  var arrayNames = ["Teo" , "Ti" , "Tun" , " Tuan" , "Hoa"]
+//  for (const key in arrayNames){
+//      console.log(arrayNames)
+//  }
+
+//  const teo = {
+//         name : "Nguyen Van Teo", 
+//         age :10,
+//         info : function(){
+//             console.log("Name : " +this.name)
+//             console.log("Age : " +this.age)
+//         }
+//     }
+//     for (const key in teo){
+//         console.log(key)
+//     }
+// Ex
+
     
