@@ -19,4 +19,36 @@ const b = 6
     
 // 24 : cach su dung ks bien
 
+// 25  : function context and bind
+    // const teo = {
+    //     name : ' Nguyen Van Teo',
+    //     age : 20,
+    //     showName : function(){
+    //         console.log(this.name)
+    //     }
+    // }
+    // // const showName2 = teo.showName.bind(teo)
+    // const showName2 = teo.showName.bind({name : "Nguyen Van TI"})
+    //  showName2()
+// 26 : arrow function
 
+//  const teo = {
+//         name : ' Nguyen Van Teo',
+//         age : 20,
+//         showName : function(){
+//             console.log(this.name)
+//             const that = this
+//             // var a = function(){
+//                 var a = () => {
+//                 console.log(that.name)
+//             }
+//             a()
+//         }
+//     }
+//     teo.showName()
+
+    const arrayNames = [ 'Teo', 'TI' , 'Tun']
+    const newArrayNames = arrayNames.map((value) => {
+        return 'Ti'
+    })
+    console.log(newArrayNames)
