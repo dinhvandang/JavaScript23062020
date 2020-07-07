@@ -51,21 +51,21 @@
     // console.log(tinhtongArray(arrayNums , binhphuong))
 
 //15 : ham map
-    const arrayNums = [1,2,3,4,5,6,7,8,9,10]
-    // const newArrayNums = []
-    // for (const value of arrayNums) {
-    //     newArrayNums.push(value +1)
-    // }
+    // const arrayNums = [1,2,3,4,5,6,7,8,9,10]
+    // // const newArrayNums = []
+    // // for (const value of arrayNums) {
+    // //     newArrayNums.push(value +1)
+    // // }
 
-        // const newArrayNums = arrayNums.map(function(value , index){
-        //     console.log(value)
-        //     return value
-        // })
-        //  console.log(newArrayNums)
+    //     // const newArrayNums = arrayNums.map(function(value , index){
+    //     //     console.log(value)
+    //     //     return value
+    //     // })
+    //     //  console.log(newArrayNums)
 
-         const newArrayNums = arrayNums.map(function(value , index){
+    //      const newArrayNums = arrayNums.map(function(value , index){
         
-            return value +1
-        })
-         console.log(newArrayNums)
+    //         return value +1
+    //     })
+    //      console.log(newArrayNums)
    
